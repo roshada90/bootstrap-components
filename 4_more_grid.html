@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Boostrap Course 4</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Hello, world!</title>
+        <style>
+            div{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 12 column structure -->
+        <div class="h1">Bootstrap 4</div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 bg-primary">First Column</div>
+                <div class="col-sm-6 col-lg-3 bg-warning">Second Column</div> 
+                <div class="col-sm-6 col-lg-3 bg-success">Third Column</div>
+                <div class="col-sm-6 col-lg-3 bg-danger">Fourth Column</div>
+            </div>
+            <hr>
+            <div class="row no-gutters">
+                <div class="col-sm-6 col-lg-3 bg-primary order-4">First Column</div> 
+                <div class="col-sm-6 col-lg-3 bg-warning mr-auto">
+                    <div class="row">
+                        <div class="col-6">First Half</div>
+                        <div class="col-6">Second Half</div>
+                    </div>
+                </div> 
+                <div class="col-sm-6 col-lg-3 bg-success ml-auto">Third Column</div>
+                <div class="col-sm-6 col-lg-3 bg-danger">Fourth Column</div>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-9 mx-auto">
+                    <div class="row">
+                        <div class="col bg-primary">1</div>
+                        <div class="col bg-warning">2</div>
+                        <div class="col bg-success">3</div>
+                    </div>
+                </div>
+                <div class="col-3 bg-primary">4</div>
+                <div class="col-3 bg-warning">5</div>
+                <div class="col-3 bg-success">6</div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
+<!-- 
+    no-gutters      For rows to add some padding to left an right
+    ml-auto         margin left to stick the element to left
+    mr-auto         margin rightt
+    mx-auto         margin center
+
+ -->
